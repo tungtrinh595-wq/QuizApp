@@ -1,10 +1,10 @@
-# 🧠 Quiz App
+# Quiz App
 
 A full-stack MERN application that allows users to take quizzes, track results, and authenticate via Google or Facebook. Built with React + Vite on the frontend and Express + MongoDB on the backend.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 📝 Create and take quizzes
 - 📊 View results and analytics
@@ -90,7 +90,7 @@ docker compose up
 ---
 
 🌍 Deployment  
-This app is deployed on Render using Free Tier.  
+This app is deployed on Render using Free Tier (which can delay requests by 50 seconds or more)
 
 | Service   | Type           | URL                                     |
 |-----------|----------------|-----------------------------------------|
@@ -99,16 +99,12 @@ This app is deployed on Render using Free Tier.
 | Socket    | Web Service    | https://quiz-socket.onrender.com        |
 | Database  | MongoDB Atlas  | Cloud-hosted MongoDB cluster            |
 
----
-
-🧪 Testing  
-Coming soon...
 
 ---
 
 🙋‍♂️ Author
 Trịnh Văn Tùng  
-📫 Email (mailto: tung.trinh.595@gmail.com)  
+📫 Email [tung.trinh.595@gmail.com]  
 🌐 Bitbucket Profile `@tungtrinh595` (private profile)  
 📱 Zalo: 0397027361  
 🌐 Facebook: [fb.com/TH55132230](https://www.facebook.com/TH55132230)  
