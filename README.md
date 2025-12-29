@@ -16,7 +16,7 @@ A full-stack MERN application that allows users to take quizzes, track results, 
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer         | Technology                     |
 |---------------|--------------------------------|
@@ -31,11 +31,10 @@ A full-stack MERN application that allows users to take quizzes, track results, 
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
-```bash  
 git clone https://bitbucket.org/tungtrinh595/quiz-app.git  
 cd quiz-app  
 
@@ -50,21 +49,18 @@ Before running the app, create environment files for both client and server:
 #### 🔧 `client/.env`
 Copy from the sample:  
 
-```bash  
 cp client/.env.sample client/.env  
 Fill in your API keys and base URL.  
 
 #### 🔧 `server/.env`
 Copy from the sample:  
 
-```bash  
 cp server/.env.sample server/.env  
 Set up your MongoDB credentials, OAuth keys, Mailtrap config, and Cloudinary credentials.  
 
 #### 🔧 `socket/.env`
 Copy from the sample:  
 
-```bash  
 cp socket/.env.sample socket/.env  
 Set up your PORT and any secret keys for token verification.  
 
