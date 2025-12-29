@@ -1,0 +1,2 @@
+export const SOCKET_RECONNECT_ATTEMPTS = 3
+export const SOCKET_RECONNECT_DELAY = 2000

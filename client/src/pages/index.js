@@ -1,0 +1,21 @@
+export { default as SignIn } from './auth/SignIn.jsx'
+export { default as SignUp } from './auth/SignUp.jsx'
+export { default as ResetPassword } from './auth/ResetPassword.jsx'
+export { default as ForgotPassword } from './auth/ForgotPassword.jsx'
+
+export { default as Home } from './user/Home.jsx'
+export { default as UserProfiles } from './user/UserProfiles.jsx'
+export { default as UserQuizDetails } from './user/UserQuizDetails.jsx'
+export { default as UserLessonDetails } from './user/UserLessonDetails.jsx'
+export { default as UserSubjectDetails } from './user/UserSubjectDetails.jsx'
+
+export { default as AdminUsers } from './admin/AdminUsers.jsx'
+export { default as AdminLessons } from './admin/AdminLessons.jsx'
+export { default as AdminQuizzes } from './admin/AdminQuizzes.jsx'
+export { default as AdminSubjects } from './admin/AdminSubjects.jsx'
+export { default as AdminDashboard } from './admin/AdminDashboard.jsx'
+export { default as AdminQuizDetails } from './admin/AdminQuizDetails.jsx'
+export { default as AdminLessonDetails } from './admin/AdminLessonDetails.jsx'
+export { default as AdminSubjectDetails } from './admin/AdminSubjectDetails.jsx'
+
+export { default as NotFound } from './NotFound.jsx'

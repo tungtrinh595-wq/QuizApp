@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: quiz-backend
+    env: node
+    repo: https://bitbucket.org/tungtrinh595/quiz-app
+    branch: main
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGO_URI
+        value: mongodb+srv://tungtrinh595_db_user:7lETHF6q0t0YXitv@cluster0.ftox3ys.mongodb.net/quiz-app?retryWrites=true&w=majority&appName=Cluster0
+      - key: NODE_ENV
+        value: production
+
+  - type: web
+    name: quiz-frontend
+    env: static
+    repo: https://bitbucket.org/tungtrinh595/quiz-app
+    branch: main
+    buildCommand: cd client && npm install && npm run build
+    staticPublishPath: client/dist
+    autoDeploy: true
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://quiz-backend.onrender.com
+      - key: NODE_ENV
+        value: production
+
+  - type: web
+    name: quiz-socket
+    env: node
+    repo: https://bitbucket.org/tungtrinh595/quiz-app
+    branch: main
+    buildCommand: cd socket && npm install
+    startCommand: cd socket && npm start
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: NODE_ENV
+        value: production

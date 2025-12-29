@@ -1,0 +1,15 @@
+.date-range-picker .react-datepicker__tab-loop {
+	@apply absolute;
+}
+
+.react-datepicker-wrapper {
+	@apply w-full;
+}
+
+.react-datepicker__input-container :is(*, ::after, ::before, ::backdrop, ::file-selector-button) {
+	@apply dark:border-gray-700 dark:bg-gray-900;
+}
+
+.react-datepicker__input-container input :is(:focus, :focus-visible, :focus-within) {
+	@apply dark:outline-0;
+}

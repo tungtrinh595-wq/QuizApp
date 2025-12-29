@@ -1,0 +1,13 @@
+/node_modules
+
+/config/dev.js
+/security/cert.key
+/security/cert.pem
+#/public
+
+/.vscode
+
+public/images
+public/files
+
+.env

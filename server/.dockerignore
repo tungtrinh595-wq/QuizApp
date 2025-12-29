@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Build artifacts
+coverage
+build
+
+# Env & secrets
+.env
+config/dev.js
+security/cert.key
+security/cert.pem
+
+# Public uploads (if not needed in image)
+public/images
+public/files
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor & system files
+.vscode
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
